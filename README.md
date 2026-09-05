@@ -15,14 +15,10 @@ Lab with vulnerable bots, A scanner to check them, payload and others
 
 ## How to run:
 - Install Ollama from [ollama.com](https://ollama.com)
-- Pull the required model:
-   \`\`\`bash
-   ollama pull qwen2.5:3b
-   \`\`\`
-- Install Python dependencies: pip install -r requirements.txt
+- Pull the required model: `ollama pull qwen2.5:3b`
 - install requirements `pip install -r requirements`
 - play every lab by runing it `python <bot_name>`
-- Do your best before seeing the hint
+- Do your best before seeing the hints
 
 ## How scanner run:
 - Scanner is made to automate your work, But for better learning, try to do the techniques manualy first
