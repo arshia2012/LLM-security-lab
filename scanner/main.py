@@ -4,7 +4,6 @@ import os
 from importlib import util
 import argparse
 from filecheck import Isfile
-from Ascii import print_banner
 import time
 from Keyword import load_keywords, check_success
 
@@ -116,7 +115,6 @@ except Exception as e:
         BetterRich.warn("An Error occured while running the program, to see the error, run the script in debug mode, e.g: python main.py -d ...")
 
 if __name__ == "__main__":
-    print_banner()
     keywords = load_keywords(args.success_keywords)
     results = spartan_rage(args.payload, theFunc, args.debugmode, keywords, args.verbose)
     print_summary(results)
