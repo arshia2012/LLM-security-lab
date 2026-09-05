@@ -23,7 +23,7 @@ Lab with vulnerable bots, A scanner to check them, payload and others
 ## How scanner run:
 - Scanner is made to automate your work, But for better learning, try to do the techniques manualy first
 - **Here is an example of running the scanner**:
-- `python scanner/main.py -t vulnerable_targets/<bot_name> -f chat -p payloads/<payload-you-want> -v`
+- `python scanner/main.py -t Vuln_bots/<bot_name> -f chat -p payloads/<payload-you-want> -v`
 - **Note: for debug mode: `... -d` and for verbose: `... -v`
 
 ## Disclaimer
