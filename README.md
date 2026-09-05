@@ -14,8 +14,12 @@ Lab with vulnerable bots, A scanner to check them, payload and others
 - RAG poisoning
 
 ## How to run:
-- first make sure you have installed Ollama from [Ollama](https://ollama.com/)
-- pull model qwen2.5:3b by running this: `ollama pull qwen2.5:3b`
+- Install Ollama from [ollama.com](https://ollama.com)
+- Pull the required model:
+   \`\`\`bash
+   ollama pull qwen2.5:3b
+   \`\`\`
+- Install Python dependencies: pip install -r requirements.txt
 - install requirements `pip install -r requirements`
 - play every lab by runing it `python <bot_name>`
 - Do your best before seeing the hint
